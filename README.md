@@ -1,4 +1,5 @@
-# DESIGN AND SIMULATION OF A DIGITAL DATA TRANSMISSION ERROR DETECTION SYSTEM USING XOR LOGIC
+# DESIGN AND SIMULATION OF A DIGITAL DATA TRANSMISSION ERROR DETECTION SYSTEM USING XOR LOGIC AND  Design of SR Latch, D Flip-Flop, JK Flip-Flop and T Flip-Flop
+
 
 ##📌 Project Overview
 
@@ -160,3 +161,73 @@ Digital-Data-Transmission-Error-Detection/
 ## 📜 License
 
 This project is created for **academic and educational purposes**.
+
+
+# Design of SR Latch, D Flip-Flop, JK Flip-Flop and T Flip-Flop
+
+## Project Overview
+
+This project explains the design and working of four important digital memory circuits: SR Latch, D Flip-Flop, JK Flip-Flop, and T Flip-Flop.
+
+These circuits are basic building blocks of sequential logic and are used to store binary information in digital systems.
+
+## Objectives
+
+- To understand sequential logic and memory elements.
+- To study the design and working of an SR latch.
+- To understand the operation of D, JK, and T flip-flops.
+- To compare their truth tables and characteristic equations.
+- To learn their applications in digital electronics.
+
+## Circuits Covered
+
+### 1. SR Latch
+The SR latch has two inputs: Set (S) and Reset (R). It supports set, reset, and hold operations. The condition S = R = 1 is invalid for the NOR-based SR latch.
+
+### 2. D Flip-Flop
+The D flip-flop stores the value present at the data input (D) at the active clock edge. Its characteristic equation is:
+
+`Q(n+1) = D`
+
+### 3. JK Flip-Flop
+The JK flip-flop supports hold, set, reset, and toggle operations. When J = K = 1, the output toggles.
+
+Characteristic equation:
+
+`Q(n+1) = JQ' + K'Q`
+
+### 4. T Flip-Flop
+The T flip-flop supports hold and toggle operations. When T = 0, the output holds its previous state. When T = 1, the output toggles at the active clock edge.
+
+Characteristic equation:
+
+`Q(n+1) = T XOR Q`
+
+## Applications
+
+- Data storage
+- Registers and shift registers
+- Digital counters
+- Frequency dividers
+- Digital control systems
+- Memory circuits
+- Switch debouncing
+
+## Key Learning Outcomes
+
+- Understanding the difference between combinational and sequential circuits.
+- Learning how latches and flip-flops store one bit of information.
+- Comparing level-triggered and edge-triggered operation.
+- Understanding the role of flip-flops in digital systems.
+
+## Conclusion
+
+SR latches and D, JK, and T flip-flops are essential memory elements in digital electronics. Each circuit has different operating characteristics and applications. Understanding these circuits provides a foundation for designing and analysing sequential digital systems.
+
+## Project Material
+
+The project presentation is included in this repository.
+
+**Topic:** Design of SR Latch, D Flip-Flop, JK Flip-Flop and T Flip-Flop
+
+**Domain:** Digital Electronics and Sequential Logic
